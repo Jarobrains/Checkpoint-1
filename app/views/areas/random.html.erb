@@ -1,12 +1,23 @@
 <div class="page-header">
   <h1>Random Circles</h1>
 </div>
-<% @radii.each do |radius| %>
   <div class="row">
     <div class="col-sm-12">
       <p class="lead">
-        Click <a href="http://localhost:3000/areas/circle/3">here</a> to see the area of a circle of radius 3.
+        Click <a href="http://localhost:3000/areas/circle/<%= @random1 %>">here</a> to see the area of a circle of radius <%= @random1 %>.
+      </p>
+      <p class="lead">
+        Click <a href="http://localhost:3000/areas/circle/<%= @random2 %>">here</a> to see the area of a circle of radius <%= @random2 %>.
+      </p>
+      <p class="lead">
+        Click <a href="http://localhost:3000/areas/circle/<%= @random3 %>">here</a> to see the area of a circle of radius <%= @random3 %>.
+      </p>
+      <p class="lead">
+        Click <a href="http://localhost:3000/areas/circle/<%= @random4 %>">here</a> to see the area of a circle of radius <%= @random4 %>.
+      </p>
+      <p class="lead">
+        Click <a href="http://localhost:3000/areas/circle/<%= @random5 %>">here</a> to see the area of a circle of radius <%= @random5 %>.
       </p>
     </div>
   </div>
-<% end %>
+

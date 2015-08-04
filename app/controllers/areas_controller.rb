@@ -38,7 +38,11 @@ class AreasController < ApplicationController
 
    def random
     @radii = [rand(1..20), rand(1..20), rand(1..20), rand(1..20), rand(1..20)]
-
+    @random1 = rand(1..20)
+    @random2 = rand(1..20)
+    @random3 = rand(1..20)
+    @random4 = rand(1..20)
+    @random5 = rand(1..20)
   end
 
 end
